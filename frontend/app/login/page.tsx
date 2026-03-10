@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function LoginPage() {
+export default function Loginpage() {
   return (
     <main className="min-h-screen bg-[#020617] text-white flex flex-col">
 

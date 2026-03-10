@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function SignupPage() {
+export default function Signupage() {
   return (
     <main className="min-h-screen bg-[#020617] text-white flex flex-col">
 
