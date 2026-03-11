@@ -287,7 +287,7 @@ export default function Home() {
 
           {/* PRO */}
 
-          <div className="bg-indigo-700 p-10 rounded-xl text-black">
+          <div className="bg-indigo-700 p-10 rounded-xl text-white">
 
             <h3 className="text-xl font-semibold">
               Pro
