@@ -69,9 +69,8 @@ export default function Loginpage() {
                 <input type="checkbox" />
                 Remember me
               </label>
-              <Link href="#" className="hover:text-white">
-                Forget password?
-              </Link>
+              <Link href="/reset-password">Forget password?</Link>
+               
             </div>
 
             {/* LOGIN BUTTON */}
