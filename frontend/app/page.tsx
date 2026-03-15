@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
 
@@ -12,46 +13,7 @@ export default function Home() {
 
       {/* NAVBAR */}
 
-      <nav className="flex items-center justify-between px-6 md:px-10 py-6 border-b border-gray-800">
-
-        <h1 className="text-xl font-bold">
-          WakeUp<span className="text-indigo-500">Server</span>
-        </h1>
-
-        {/* Desktop Menu */}
-        <div className="hidden md:flex gap-10 text-sm text-gray-400">
-
-          <a href="#features">Features</a>
-          <a href="#how">How It Works</a>
-          <a href="#pricing">Pricing</a>
-
-        </div>
-
-        {/* Desktop Buttons */}
-        <div className="hidden md:flex gap-6 items-center">
-
-          <Link href="/login" className="text-gray-400">
-            Login
-          </Link>
-
-          <Link
-            href="/signup"
-            className="bg-indigo-600 px-5 py-2 rounded-md text-white hover:bg-indigo-700"
-          >
-            Get Started
-          </Link>
-
-        </div>
-
-        {/* Mobile Menu Button */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-gray-300"
-        >
-          ☰
-        </button>
-
-      </nav>
+      <Navbar/>
 
       {/* MOBILE MENU */}
 
