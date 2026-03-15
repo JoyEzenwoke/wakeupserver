@@ -34,7 +34,7 @@ export default function ResetConfirmation() {
 
       {/* CONTENT */}
 
-      <section className="flex flex-1 items-center justify-center px-6 py-12 md:py-16">
+      <section className="flex flex-1 items-center justify-center px-2 py-12 md:py-16">
 
         <div className="w-full max-w-md bg-[#0B1120] p-8 md:p-10 rounded-xl shadow-lg text-center">
 

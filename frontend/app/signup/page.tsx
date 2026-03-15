@@ -27,7 +27,7 @@ export default function Signupage() {
       </nav>
 
       {/* FORM */}
-      <section className="flex flex-1 items-start md:items-center justify-center px-6 py-8 md:py-16">
+      <section className="flex flex-1 items-start md:items-center justify-center px-2 py-8 md:py-16">
         <div className="w-full max-w-md bg-[#0B1120] p-6 md:p-10 rounded-xl shadow-lg mt-6 md:mt-0">
           <h2 className="text-2xl md:text-3xl font-bold text-center">
             WakeUp<span className="text-indigo-500">Server</span>
